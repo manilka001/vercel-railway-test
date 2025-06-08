@@ -2,8 +2,8 @@ import React, { useState, useEffect } from 'react';
 import './App.css';
 
 // Replace this with your Railway backend URL after deployment
-const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:5000';
-
+const API_BASE_URL = 'https://zesty-curiosity-production-f88e.up.railway.app' || 'http://localhost:5000';
+//process.env.REACT_APP_API_URL
 function App() {
   const [backendStatus, setBackendStatus] = useState('Checking...');
   const [users, setUsers] = useState([]);
