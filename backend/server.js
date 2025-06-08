@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 5000;
 
 // Middleware
 app.use(cors({
-  origin: ['http://localhost:3000', 'https://your-vercel-app.vercel.app'],
+  origin: ['http://localhost:3000', 'https://vercel.com/manilka001s-projects/vercel-railway-test/3RgUWBv7oX7jaSMoq7MSJ8A7jmBC'],
   credentials: true
 }));
 app.use(express.json());
